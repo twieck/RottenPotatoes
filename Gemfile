@@ -28,3 +28,9 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
+# Use Haml for templates.
+gem 'haml'
+# Use Ruby debugger.
+group :development, :test do
+  gem 'ruby-debug19'
+end
